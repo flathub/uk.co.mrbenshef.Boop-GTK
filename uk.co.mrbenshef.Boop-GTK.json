@@ -41,19 +41,21 @@
                 "install -Dm755 ./target/release/boop-gtk -t /app/bin/",
                 "install -Dm644 ./flatpak/data/${FLATPAK_ID}.metainfo.xml -t /app/share/metainfo/",
                 "install -Dm644 ./flatpak/data/${FLATPAK_ID}.desktop -t /app/share/applications/",
-                "install -Dm644 ./flatpak/data/${FLATPAK_ID}.png -t /app/share/icons/hicolor/256x256/apps/"
+                "install -Dm644 ./flatpak/data/${FLATPAK_ID}.svg -t /app/share/icons/hicolor/scalable/apps/",
+                "install -Dm644 ./flatpak/data/${FLATPAK_ID}.png -t /app/share/icons/hicolor/256x256/apps/",
+                "install -Dm644 ./flatpak/data/${FLATPAK_ID}-symbolic.svg -t /app/share/icons/hicolor/symbolic/apps/"
             ],
             "sources": [
                 {
                     "type": "git",
                     "url": "https://github.com/mrbenshef/Boop-GTK/",
-                    "tag": "v1.1.1",
-                    "commit": "676fb713ccaf330eca300a2d287e102e98ad0e29"
+                    "tag": "v1.2.0",
+                    "commit": "f245bdab93d0a1c98d454da5f0bc82e3f2e48c23"
                 },
                 {
                     "type": "file",
-                    "url": "https://github.com/denoland/rusty_v8/releases/download/v0.8.1/librusty_v8_release_x86_64-unknown-linux-gnu.a",
-                    "sha256": "d734968ce6f421ee1d00d18bc76279297c618a549bc29fb8809333cd57d39a5b",
+                    "url": "https://github.com/denoland/rusty_v8/releases/download/v0.10.0/librusty_v8_release_x86_64-unknown-linux-gnu.a",
+                    "sha256": "58b15b9e305b44ad64a20d65a17285628002a5f1b22365eade05250538518054",
                     "dest": "target/release/gn_out/obj",
                     "dest-filename": "librusty_v8.a"
                 },
