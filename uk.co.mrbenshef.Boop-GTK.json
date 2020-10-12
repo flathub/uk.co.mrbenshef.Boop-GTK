@@ -49,13 +49,13 @@
                 {
                     "type": "git",
                     "url": "https://github.com/mrbenshef/Boop-GTK/",
-                    "tag": "v1.3.0",
-                    "commit": "4476738f5491ab02953ea722096d31624b4f4d19"
+                    "tag": "v1.4.0",
+                    "commit": "bb863fb5899aa5712fd5cd9e8d2b54ad255ce188"
                 },
                 {
                     "type": "file",
-                    "url": "https://github.com/denoland/rusty_v8/releases/download/v0.10.0/librusty_v8_release_x86_64-unknown-linux-gnu.a",
-                    "sha256": "58b15b9e305b44ad64a20d65a17285628002a5f1b22365eade05250538518054",
+                    "url": "https://github.com/denoland/rusty_v8/releases/download/v0.11.0/librusty_v8_release_x86_64-unknown-linux-gnu.a",
+                    "sha256": "67adbeca3ca415425065c88cee23af0c4c36c0d1ad6daa30de69a886383e28bb",
                     "dest": "target/release/gn_out/obj",
                     "dest-filename": "librusty_v8.a"
                 },
