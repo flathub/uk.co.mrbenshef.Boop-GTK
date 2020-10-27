@@ -54,8 +54,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://github.com/denoland/rusty_v8/releases/download/v0.11.0/librusty_v8_release_x86_64-unknown-linux-gnu.a",
-                    "sha256": "67adbeca3ca415425065c88cee23af0c4c36c0d1ad6daa30de69a886383e28bb",
+                    "url": "https://github.com/denoland/rusty_v8/releases/download/v0.12.0/librusty_v8_release_x86_64-unknown-linux-gnu.a",
+                    "sha256": "0fbec8d8a3e997296cd3d39f2c4e98b92f6b21913447385be62840074caaf1a2",
                     "dest": "target/release/gn_out/obj",
                     "dest-filename": "librusty_v8.a"
                 },
