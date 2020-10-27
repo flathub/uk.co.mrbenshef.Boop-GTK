@@ -49,8 +49,8 @@
                 {
                     "type": "git",
                     "url": "https://github.com/mrbenshef/Boop-GTK/",
-                    "tag": "v1.4.0",
-                    "commit": "bb863fb5899aa5712fd5cd9e8d2b54ad255ce188"
+                    "tag": "v1.5.0",
+                    "commit": "dd3ee6a23dfd5f2c1a0136375852d8626b5cec06"
                 },
                 {
                     "type": "file",
